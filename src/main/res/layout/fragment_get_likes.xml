@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/app_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/loading_view" />
+    <TextView android:textSize="18sp" android:textColor="#737373" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/title" android:background="@color/app_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="60dp" android:text="@string/get_likes_hint" />
+    <com.handmark.pulltorefresh.library.PullToRefreshGridView android:id="@+id/timeline_gridview" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:horizontalSpacing="5dp" android:verticalSpacing="5dp" android:numColumns="UNKNOWN_DATA_0x3" />
+</LinearLayout>

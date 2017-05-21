@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/app_list_bg" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/image_view" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:src="@drawable/placeholder" />
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+        <TextView android:textSize="20sp" android:textColor="@color/app_black_87" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/order_status" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Promoting" android:drawableLeft="@drawable/tabs_likes_selected" android:drawablePadding="5dp" />
+        <TextView android:textSize="14sp" android:textColor="@color/app_gray" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/order_time" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2016-03-25 18:41:28" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/app_black_87" android:id="@+id/progress_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0/10" />
+        <ProgressBar android:id="@+id/progressbar" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="wrap_content" style="@style/ProgressBar_Custom_Horizontal" />
+    </LinearLayout>
+</LinearLayout>

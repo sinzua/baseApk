@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/card_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ty.followboom.views.PhotoImageView android:id="@+id/image_view" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/placeholder" android:scaleType="centerCrop" />
+</LinearLayout>

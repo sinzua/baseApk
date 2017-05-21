@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/app_theme" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/activity_title_bar" />
+    <include android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="UNKNOWN_DATA_0x9601" android:layout_margin="5dp" layout="@layout/post_item_view_with_fixed_wh" />
+    <ListView android:id="@+id/like_list" android:background="@color/app_white" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

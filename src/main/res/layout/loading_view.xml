@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/loading_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/loading_item" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:id="@+id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="10000" android:indeterminateBehavior="repeat" style="@style/ProgressBar_Small" />
+        <TextView android:textAppearance="@*android:style/TextAppearance.Medium" android:textColor="#b69d5b" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/loading" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2d01" android:layout_marginLeft="5dp" android:text="@string/loading" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/loading_failed" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/load_failed" android:drawableTop="@drawable/icon_no_result" />
+    </LinearLayout>
+</LinearLayout>

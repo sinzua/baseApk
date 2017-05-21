@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" ads:orientation="vertical" ads:layout_width="match_parent" ads:layout_height="match_parent">
+    <include layout="@layout/title_bar" />
+    <pl.tajchert.sample.DotsTextView ads:textSize="18sp" ads:textColor="@color/app_black" ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/dots" ads:background="@color/app_light_gray" ads:padding="10dp" ads:visibility="gone" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:period="1000" ads:autoplay="false" />
+    <RelativeLayout ads:layout_width="match_parent" ads:layout_height="match_parent">
+        <com.handmark.pulltorefresh.library.PullToRefreshHeaderGridView ads:id="@+id/user_gridview" ads:background="@color/app_light_gray" ads:scrollbars="UNKNOWN_DATA_0x0" ads:layout_width="match_parent" ads:layout_height="match_parent" ads:listSelector="0x0" ads:horizontalSpacing="2dp" ads:verticalSpacing="5dp" ads:numColumns="UNKNOWN_DATA_0x2" />
+        <com.google.android.gms.ads.AdView ads:id="@+id/ad_view" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_alignParentBottom="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-6102980047400666/4971371038" />
+    </RelativeLayout>
+</LinearLayout>

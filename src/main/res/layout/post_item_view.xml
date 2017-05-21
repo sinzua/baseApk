@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/card_background" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:id="@+id/user_info" android:background="@color/app_white_87" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.forwardwin.base.widgets.CircleImageView android:id="@+id/profile_image" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:src="@drawable/ic_profile" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="5dp">
+            <TextView android:textStyle="bold" android:textColor="@color/app_theme" android:id="@+id/user_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="1dp" android:singleLine="true" />
+            <TextView android:textColor="@color/app_light_gray" android:id="@+id/post_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.ty.followboom.views.CustomImageVideoView android:id="@+id/image_video_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@color/app_white_87" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="25dp">
+        <ImageView android:id="@+id/play_button" android:background="@drawable/button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:src="@drawable/ic_play_button" />
+        <ImageView android:id="@+id/download_button" android:background="@drawable/button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:src="@drawable/ic_download_button" />
+        <ImageView android:id="@+id/report_button" android:background="@drawable/button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:src="@drawable/ic_more_button" />
+    </LinearLayout>
+</LinearLayout>

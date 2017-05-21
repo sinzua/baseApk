@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+            <com.ty.followboom.views.PhotoImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/get_coins_imageview_1" android:background="@drawable/card_background" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_margin="2,5dp" android:src="@drawable/placeholder" android:scaleType="centerCrop" android:layout_weight="1.0" />
+            <com.ty.followboom.views.PhotoImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/get_coins_imageview_2" android:background="@drawable/card_background" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_margin="2,5dp" android:src="@drawable/placeholder" android:scaleType="centerCrop" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+            <com.ty.followboom.views.PhotoImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/get_coins_imageview_3" android:background="@drawable/card_background" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_margin="2,5dp" android:src="@drawable/placeholder" android:scaleType="centerCrop" android:layout_weight="1.0" />
+            <com.ty.followboom.views.PhotoImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/get_coins_imageview_4" android:background="@drawable/card_background" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_margin="2,5dp" android:src="@drawable/placeholder" android:scaleType="centerCrop" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="option_list">
+        <item>Report this picture</item>
+        <item>Cancel</item>
+    </array>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/card_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginRight="30dp">
+    <TextView android:textSize="24sp" android:textStyle="bold" android:textColor="@color/app_theme" android:id="@+id/title_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp" android:text="Free Coins" />
+    <View android:background="@color/app_theme" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_nativex" android:background="@drawable/card_background" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:layout_marginBottom="10dp" android:src="@drawable/ic_nativex" />
+            <TextView android:textStyle="bold|italic" android:textColor="@color/app_black_87" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="50dp" android:text="Nativex offers" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_ss" android:background="@drawable/card_background" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:layout_marginBottom="10dp" android:src="@drawable/ic_supersonic" />
+            <TextView android:textStyle="bold|italic" android:textColor="@color/app_black_87" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="50dp" android:text="Supersonic offers" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/app_theme" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/title" android:background="@drawable/card_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="60dp" android:text="@string/get_free_coins_hint" />
+</LinearLayout>

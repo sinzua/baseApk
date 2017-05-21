@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" dots:orientation="vertical" dots:layout_width="match_parent" dots:layout_height="match_parent">
+    <include layout="@layout/title_bar" />
+    <pl.tajchert.sample.DotsTextView dots:textSize="18sp" dots:textColor="@color/app_black" dots:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" dots:id="@+id/dots" dots:background="@color/app_light_gray" dots:padding="10dp" dots:visibility="gone" dots:layout_width="match_parent" dots:layout_height="wrap_content" dots:period="1000" dots:autoplay="false" />
+    <com.handmark.pulltorefresh.library.PullToRefreshListView dots:id="@+id/follow_listview" dots:background="@color/app_white" dots:layout_width="match_parent" dots:layout_height="match_parent" dots:listSelector="0x0" />
+</LinearLayout>

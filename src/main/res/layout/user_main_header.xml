@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/me_layer" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.forwardwin.base.widgets.CircleImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/user_avatar" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:src="@drawable/ic_profile" />
+    <View android:background="@color/app_gray" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/followers_layout" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_margin="10dp" android:layout_weight="1.0">
+                <TextView android:textStyle="bold" android:textColor="@color/app_blue" android:id="@+id/followers_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textStyle="bold" android:textColor="@color/app_blue" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Followers" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/followings_layout" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_margin="10dp" android:layout_weight="1.0">
+                <TextView android:textStyle="bold" android:textColor="@color/app_blue" android:id="@+id/followings_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textStyle="bold" android:textColor="@color/app_blue" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Followings" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:textStyle="bold" android:textColor="@color/app_white" android:id="@+id/download_all_button" android:background="@drawable/round_button" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="Download All" />
+    </LinearLayout>
+</LinearLayout>

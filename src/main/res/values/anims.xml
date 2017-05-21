@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <anim name="abc_fade_in">res/anim/abc_fade_in.xml</anim>
+    <anim name="abc_fade_out">res/anim/abc_fade_out.xml</anim>
+    <anim name="abc_grow_fade_in_from_bottom">res/anim/abc_grow_fade_in_from_bottom.xml</anim>
+    <anim name="abc_popup_enter">res/anim/abc_popup_enter.xml</anim>
+    <anim name="abc_popup_exit">res/anim/abc_popup_exit.xml</anim>
+    <anim name="abc_shrink_fade_out_from_bottom">res/anim/abc_shrink_fade_out_from_bottom.xml</anim>
+    <anim name="abc_slide_in_bottom">res/anim/abc_slide_in_bottom.xml</anim>
+    <anim name="abc_slide_in_top">res/anim/abc_slide_in_top.xml</anim>
+    <anim name="abc_slide_out_bottom">res/anim/abc_slide_out_bottom.xml</anim>
+    <anim name="abc_slide_out_top">res/anim/abc_slide_out_top.xml</anim>
+    <anim name="design_fab_in">res/anim/design_fab_in.xml</anim>
+    <anim name="design_fab_out">res/anim/design_fab_out.xml</anim>
+    <anim name="design_snackbar_in">res/anim/design_snackbar_in.xml</anim>
+    <anim name="design_snackbar_out">res/anim/design_snackbar_out.xml</anim>
+    <anim name="float_share_view_shake">res/anim/float_share_view_shake.xml</anim>
+    <anim name="left_in">res/anim/left_in.xml</anim>
+    <anim name="left_out">res/anim/left_out.xml</anim>
+    <anim name="option_entry_from_bottom">res/anim/option_entry_from_bottom.xml</anim>
+    <anim name="option_leave_from_bottom">res/anim/option_leave_from_bottom.xml</anim>
+    <anim name="right_in">res/anim/right_in.xml</anim>
+    <anim name="right_out">res/anim/right_out.xml</anim>
+    <anim name="scale_with_alpha">res/anim/scale_with_alpha.xml</anim>
+    <anim name="shake_y">res/anim/shake_y.xml</anim>
+    <anim name="slide_in_from_bottom">res/anim/slide_in_from_bottom.xml</anim>
+    <anim name="slide_in_from_top">res/anim/slide_in_from_top.xml</anim>
+    <anim name="slide_out_to_bottom">res/anim/slide_out_to_bottom.xml</anim>
+    <anim name="slide_out_to_top">res/anim/slide_out_to_top.xml</anim>
+    <anim name="translation_and_rotate">res/anim/translation_and_rotate.xml</anim>
+</resources>
